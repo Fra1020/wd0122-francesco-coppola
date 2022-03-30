@@ -1,0 +1,66 @@
+
+body{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+   
+    
+}
+body{
+    font-size: 1.1em;
+}
+
+li{
+    list-style-type: none;
+}
+
+hr{
+    border-top: dashed;
+}
+
+
+
+header{
+    background-color:aqua;
+    color: black;
+    
+    
+}
+
+
+span{
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+img profilo.pjp{
+
+    
+}
+
+
+blockquote{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+strong{
+    color: aqua;
+}
+
+
+mark{
+    background-color: burlywood;
+}
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
