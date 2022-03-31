@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+}
+h1, h2, h3, h4, h5{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2rem;
+    margin-block: 20px;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-block: 20px;
+}
+
+h3{
+    font-size: 1rem;
+    margin-block: 20px;
+}
+
+
+header{
+    background-color:aqua;
+    height: 200px;
+    display: inline-block;
+    color: white;
+    margin: 10%;
+    
+    
+}
+header li{
+    list-style-type: none;
+    text-align: center;
+}
+
+header li::before{
+    content: "\21DB";
+}
+header li::after{
+    content: "\21DA";
+}
+
+
+
+
+a:hover{
+    color: white;
+}
+
+
+
+main{
+    background-color:darkgrey;
+    margin:5%;
+    padding: 5%;
+    
+
+    
+    
+}
+
+p{
+    margin: 30px;
+}
+
+code{
+    background-color: grey;
+    color: black;
+    border-radius: 10%;
+    opacity: 40%;
+}
+
+strong{
+    color: blueviolet;
+    text-shadow: 5px;
+}
+
+
+span{
+    color: grey;
+    margin-left: 40px;
+    
+    
+}
+#mario{
+    color: grey;
+    margin-left: 40px;
+    
+}
+
+aside a{
+    color: aqua;
+}
+
+caption{
+    margin: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+th {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+
+#friz{
+    background-color: grey;
+    padding: 15px;
+}
+
+section{
+    background-color: grey;
+    margin-block: auto;
+}
+
+
+aside div {
+    background-color: bisque;
+
+}
+.mano{
+    color: aqua;
+}
+
+footer{
+    background-color: midnightblue;
+    color: white;
+    margin: 10%;
+
+}
+a{
+    color: darkmagenta;
+}
