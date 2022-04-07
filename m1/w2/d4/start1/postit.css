@@ -1,0 +1,59 @@
+#fogli{
+    background-color:grey;
+    width: 800px;
+    height: 400px;
+    
+}
+
+.postit{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    justify-content: space-evenly;
+
+}
+
+
+
+.post{
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    box-shadow: 1px 1px 100px #dedede;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s;
+    
+}
+
+.verde{
+    background-color:green;
+    transform: rotate(5deg);
+}
+
+.giallo{
+    background-color:yellow;
+    transform: rotate(-5deg);
+}
+
+.viola{
+    background-color: violet;
+    transform: rotate(-3deg);
+}
+
+.post:hover{
+    transform: scale(1.5);
+}
+
+    
+
+
+h2{
+    font-size: 20px;
+    
+}
