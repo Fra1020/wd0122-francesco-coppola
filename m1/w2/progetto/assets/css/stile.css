@@ -1,0 +1,154 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #000;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1;
+    color: white;
+    margin-bottom: 2rem;
+}
+h2{
+    font-size: 3.5rem;
+    line-height: 1;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+h4{
+    font-size: 2rem;
+    color:white;
+    margin-bottom: 2rem;
+}
+p{
+    margin-bottom: 25px;
+
+    }
+header{
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 7px 15px #d3d3d3;
+    position: sticky;
+    flex-direction: row;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 1em;
+    line-height: 1, 1.1;
+}
+
+header nav {
+    text-align: right;
+}
+.logo{
+    height: 43.19px;
+    
+}
+#menu{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#apri-menu{
+    display: none;
+}
+
+input:checked + #menu{
+    height: 200px;
+    
+}
+
+ul li{
+    margin-bottom: 0.7rem;
+}
+
+.bottone{
+    background: rgb(86,85,229);
+    background: -moz-linear-gradient(90deg, rgba(86,85,229,1) 0%, rgba(0,238,255,1) 0%, rgba(20,19,137,1) 100%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(86,85,229,1) 0%, rgba(0,238,255,1) 0%, rgba(20,19,137,1) 100%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(86,85,229,1) 0%, rgba(0,238,255,1) 0%, rgba(20,19,137,1) 100%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5655e5",endColorstr="#00d4ff",GradientType=1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    border-style: none;
+    font-family: 'Fira sans', sans-serif;
+    margin-top: 1rem;
+    
+    
+}
+
+.primo-blocco{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 30px 30px 10px;
+    
+
+}
+
+.secondo-blocco{
+    text-align: center;
+    
+}
+
+div .lni{
+    color: red;
+    font-size: 3rem;
+}
+
+.terzo-blocco{
+    background-color: #0c0633;
+    color: white;
+    text-align: center;
+    padding: 10px 30px 30px 10px;
+
+}
+
+.quarto-blocco{
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb( 238, 238, 238);
+    
+}
+
+footer .lni{
+    color: red;
+}
+
+footer h4{
+    color: black;
+}
+
+footer div{
+    padding: 20px;
+}
+
+#numero-2{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
