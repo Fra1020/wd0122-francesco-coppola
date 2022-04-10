@@ -152,3 +152,165 @@ article{
     text-align: center;
 }
 
+.chisiamo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.pch{
+    text-align: center;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imc{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.prezzocorsi{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+
+
+.prezzo{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 40px;
+}
+
+.prezzo td:nth-child(1){
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.prezzo tr:nth-child(n+7){
+    background-color: #d2dce7;
+}
+
+.prezzo tr:nth-child(1), .prezzario tr:nth-child(2), .prezzo tr:nth-child(3){
+    background-color: #d2dce7;
+}
+
+.mille{
+    background-color: #d2dce7;
+
+}
+
+
+
+
+
+.feed{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#send{
+    margin-left: 20px;
+    background: rgb(143,196,221);
+background: -moz-linear-gradient(90deg, rgba(143,196,221,1) 0%, rgba(29,29,134,1) 100%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(143,196,221,1) 0%, rgba(29,29,134,1) 100%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(143,196,221,1) 0%, rgba(29,29,134,1) 100%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8fc4dd",endColorstr="#00d4ff",GradientType=1);
+color: white;
+padding: 10px 73px 10px 73px;
+border-radius: 3%;
+text-align: center;
+text-decoration: none;
+margin-left: 90px;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
+.nome{
+    
+    height: 20px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 125px;
+   
+    
+    
+}
+
+
+.casella{
+    
+    height: 20px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 125px;
+    
+    
+    
+}
+
+.write{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 125px;
+    margin-bottom: 40px;
+    
+    
+}
+#contattaci{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.sede{
+    padding-top: 20px;
+}
+.contat{
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width: 810px) {
+  .topflex {
+      flex-direction: row;
+      justify-content: center;
+  }  
+}
+
+@media screen and (min-width: 810px) {
+   .middle-flex{
+    flex-direction: row;
+      justify-content: center;   
+   } 
+}
+
+
+
+@media screen and (min-width: 810px) {
+    .footer-flex{
+     flex-direction: row;
+       justify-content: center;   
+    } 
+ }
