@@ -1,0 +1,66 @@
+@import 'variabili';
+
+body{
+    background-color: $colore;
+    line-height: 1.6;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.showcase{
+    background-color: $colore1;
+    height: 600px;
+}
+.showcase nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.showcase ul{
+         display: flex;
+         list-style-type: none;
+}
+
+.showcase li{
+    padding: 15px;
+}
+
+.showcase a{
+    color: $colore;
+}
+
+.showcase a:hover{
+    color: $colore2;
+}
+
+.showcase-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.showcase-content img{
+    width: 60%;
+}
+
+.showcase-content h1{
+    font-size: 40px;
+    line-height: 1.3
+}
+
+
+.container{
+    max-width: 900px;
+    padding: $padding-default;
+    margin: $margin-default;
+    overflow: auto;
+}
