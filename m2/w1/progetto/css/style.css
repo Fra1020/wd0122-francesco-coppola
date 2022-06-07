@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    
+}
+
+.carte{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+.carta{
+    height: 110px;
+    width: 90px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.carta:hover{
+    transform: scale(1.05)
+}
+
+.carta img{
+    width: 80%;
+    max-height: 90px;
+    opacity: 0;
+    transition: 0.3s all ease;
+}
+
+.carta.cliccato {
+    background-color: blue;
+
+}

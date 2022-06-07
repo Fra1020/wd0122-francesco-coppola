@@ -1,0 +1,21 @@
+<div class="container">
+  <form (ngSubmit)="submit()"  #f="ngForm">
+    <div class="form-group">
+      <label for="nome">name</label>
+      <input #name="ngModel" ngModel name="nome" type="text" class="from-control" required placeholder="nome">
+      <p
+      [style.color]="'red'">Campo Obbligatorio</p>
+    </div>
+
+    <div class="form-group">
+      <label for="AlterEgo">AlterEgo</label>
+      <input #AlterEgo="ngModel" ngModel name="Alterego" type="text" class="from-control" required placeholder="Alterego">
+      <p [style.color]="'red'">Campo Obbligatorio</p>
+    </div>
+    <button type="submit"></button>
+
+  </form>
+  <h2 *ngFor="let n of nomi">{{n}}</h2>
+  <h2 *ngFor="let a of alter">{{a}}</h2>
+</div>
+

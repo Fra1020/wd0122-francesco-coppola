@@ -1,0 +1,63 @@
+
+@mixin corsivo{
+    font-style: italic;
+    text-decoration: none;
+}
+
+a{
+    @include corsivo;
+}
+
+
+header{
+    background-color: rgb(59, 3, 59);
+    height: 50px;
+    border-radius: 15px;
+    padding: 4px;
+    color: white;
+    border: 3px ridge white;
+    li{
+        list-style: none;
+        display: inline block;
+        margin-right: 10px;
+        
+    }
+    a{
+        color: set-color-pro($primario,$secondario);
+        @include corsivo;
+        color: white;
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.warning-button {
+    background-color: rgb(212, 138, 0);
+    color: white;
+}
+
+#introduction a{
+    color: rgb(212, 138, 0);
+    
+}
+
+#promo a{
+    color: rgb(212, 138, 0);
+}
+
+
+@function set-color-pro($colore, $sfondo){
+    @if lightness(($sfondo) >= 50){
+        @return $colore: black;
+
+    }@else{
+        @return $colore: white;
+    }
+}
+
+

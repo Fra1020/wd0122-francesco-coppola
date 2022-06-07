@@ -1,0 +1,23 @@
+@function miafunzione($n){
+    @return 100 / $n + px;
+}
+
+// imposto un colore bianco o nero in base alla luminosità del colore inserito
+@function set-color(){
+    $luminosity : lightness($colore);
+    @if($luminosity >= 50){
+        @return #000;
+    }@else{
+        @return #fff;
+    }
+}
+
+//dato un colore da valutare, restituisce la versione schiarita o scurita di un secondo colore garantendo la restituzione di un colore in contrasto con il primo
+@function set-color($sfondo,$colore){
+    @if(lightness($sfondo) >= 50){
+        @return darken($colore, 30%);
+    }@else{
+        @return lighten($colore, 30%);
+    }
+}
+

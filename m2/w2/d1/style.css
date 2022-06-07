@@ -1,0 +1,17 @@
+.btn-primary{
+    background-color: aqua;
+    border-color: black;
+    color: #000;
+}
+
+.bg-primary{
+    background-color: aqua;
+}
+/* posso attivar ele modifche su elementi che presentino una classe di bootstrap ed una definita da me(in pratica sugli elementi che le abbiamo entrambe)*/
+.container.container-con-blocco{
+    border: 1px solid black;
+}
+
+.accordion-button.accordion-rosso:not(.collapsed){
+    background-color: red;
+}

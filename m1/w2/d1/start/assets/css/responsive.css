@@ -1,0 +1,43 @@
+@media(min-width:768px){
+    h1{
+        text-align: center;
+        margin: 10px 30% 10px 30%;
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+     }
+
+    p{
+        text-align: center;
+
+    }
+
+    article p{
+        text-align: center;
+    }
+    
+    article :nth-child(3){
+        text-align: left;
+    }
+    article :nth-child(4){
+        text-align: left;
+    }
+    
+    table{
+        margin: auto;
+        width: 450px;
+    }
+    
+    caption{
+        font-size: 30px;
+    }
+
+    tbody td:last-child{
+        text-align: center;
+    }
+
+    thead th:last-child{
+        text-align: center;
+    }
+
+}

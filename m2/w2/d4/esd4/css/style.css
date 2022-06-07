@@ -1,0 +1,34 @@
+a {
+  font-style: italic;
+  text-decoration: none; }
+
+header {
+  background-color: #3b033b;
+  height: 50px;
+  border-radius: 15px;
+  padding: 4px;
+  color: white;
+  border: 3px ridge white; }
+  header li {
+    list-style: none;
+    display: flex;
+    margin-right: 10px; }
+  header a {
+    font-style: italic;
+    text-decoration: none;
+    color: white; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.warning-button {
+  background-color: #d48a00;
+  color: white; }
+
+#introduction a {
+  color: #d48a00; }
+
+#promo a {
+  color: #d48a00; }
