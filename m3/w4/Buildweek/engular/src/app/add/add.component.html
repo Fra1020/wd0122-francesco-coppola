@@ -1,0 +1,9 @@
+<form action="" class="" #f="ngForm">
+  <h1>TITOLO</h1>
+  <label for="title" class="form-label"></label>
+  <input class="form-control" type="text" placeholder="Title" name="title" id="title" [(ngModel)]="data.title"/>
+  <label for="body" class="form-label"></label>
+  <h1>TESTO</h1>
+  <textarea class="form-control" name="body" id="body" placeholder="Writing" [(ngModel)]="data.body"></textarea>
+  <button (click)="addPost()" class="btn btn-primary">Crea post</button>
+</form>
