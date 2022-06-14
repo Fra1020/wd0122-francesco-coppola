@@ -1,0 +1,17 @@
+<h1>LISTA FILM</h1>
+<table class="table table-dark ">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Titolo</th>
+      <th>Presentazione</th>
+    </tr>
+  </thead>
+  <tbody class="table table-group-divider table-striped bg-success text-white">
+    <tr *ngFor="let film of films">
+      <td>{{ film.id }}</td>
+      <td>{{ film.title }}</td>
+      <td>{{ film.presentazione }}</td>
+    </tr>
+  </tbody>
+</table>

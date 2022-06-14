@@ -9,6 +9,9 @@ const APIURL = 'http://localhost:4201/posts';
   providedIn: 'root',
 })
 export class OperationsService {
+  getFilms(id: number) {
+    throw new Error('Method not implemented.');
+  }
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<Modello[]> {
@@ -23,7 +26,7 @@ export class OperationsService {
     return this.http.put(APIURL + '/' + id, data);
   }
 
-  getPost(id: number): Observable<any> {
+  getFilm(id: number): Observable<any> {
     return this.http.get(APIURL + '/' + id);
   }
 

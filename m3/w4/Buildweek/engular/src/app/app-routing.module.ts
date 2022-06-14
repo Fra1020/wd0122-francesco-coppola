@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddComponent } from './add/add.component';
-import { DetailsComponent } from './details/details.component';
-import { PostsComponent } from './posts/posts.component';
+import { AggiungiComponent } from './aggiungi/aggiungi.component';
+import { DettagliComponent} from './dettagli/dettagli.component';
+import { FilmsComponent } from './films/films.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: PostsComponent,
+    component: FilmsComponent,
   },
   {
-    path: 'add',
-    component: AddComponent,
+    path: 'aggiungi',
+    component: AggiungiComponent,
   },
   {
-    path: 'details',
-    component: DetailsComponent,
+    path: 'dettagli',
+    component: DettagliComponent,
   },
 ];
 

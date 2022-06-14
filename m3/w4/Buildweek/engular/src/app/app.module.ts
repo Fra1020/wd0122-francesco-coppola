@@ -4,19 +4,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
-import { PostsComponent } from './posts/posts.component';
-import { AddComponent } from './add/add.component';
+
+
 import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
-import { DetailsComponent } from './details/details.component';
+import { DettagliComponent } from './dettagli/dettagli.component';
+import { AggiungiComponent } from './aggiungi/aggiungi.component';
+import { FilmsComponent } from './films/films.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostsComponent,
-    AddComponent,
+    AggiungiComponent,
     NavComponent,
-    DetailsComponent
+    DettagliComponent,
+    FilmsComponent
   ],
   imports: [
     BrowserModule,

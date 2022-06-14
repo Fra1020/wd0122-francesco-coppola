@@ -3,14 +3,14 @@ import { Modello } from '../model/modello.model';
 import { OperationsService } from '../operations/operations.service';
 
 @Component({
-  selector: 'app-posts',
-  templateUrl: './posts.component.html',
-  styleUrls: ['./posts.component.scss'],
+  selector: 'app-films',
+  templateUrl: './films.component.html',
+  styleUrls: ['./films.component.scss']
 })
-export class PostsComponent implements OnInit {
+export class FilmsComponent implements OnInit {
   constructor(private operations: OperationsService) {}
 
-  posts: Modello[] = [];
+  films: Modello[] = [];
 
   ngOnInit(): void {
     this.getAllPosts();
@@ -18,7 +18,7 @@ export class PostsComponent implements OnInit {
 
   getAllPosts() {
     this.operations.getAll().subscribe((res) => {
-      this.posts = res;
+      this.films = res;
     });
   }
 }
